@@ -1,0 +1,399 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family:"Inter","sans-serif";
+}
+html{
+  overflow-x: hidden;
+}
+body{
+  overflow-x:hidden ;
+}
+h1{
+  font-family: "Special Gothic Expanded One";
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  font-weight: 1000;
+}
+.heading{
+  width:100%;
+}
+.container{
+   max-width: 90%;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
+.top-head{
+  background-color: black;
+  display: flex;
+  color: white;
+  padding:1rem;
+  justify-content: space-around;
+}
+.top-head a{
+  color:white;
+}
+.top-head .text{
+  align-self: center;
+}
+.top-head .button{
+align-self: end;
+}
+.bottom-head{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 2rem;
+}
+.heading-header{
+  text-transform: uppercase;
+  font-size: 3.2rem;
+  font-weight: 1800;
+  font-style: bold;
+}
+.bottom-head ul{
+  display: flex;
+}
+.bottom-head li{
+  list-style: none;
+  padding:0 2rem ;
+}
+.bottom-head svg{
+  width:2.2rem;
+  height:2.2rem;
+  margin-left: 1rem;
+  /* padding: 0 2rem; */
+}
+.search-bar{
+  border-radius:2.8rem;
+  width: 40%;
+  background-color: beige;
+  padding: 1rem 1.6rem;
+  display: flex;
+  align-items: center;
+  gap:1rem;
+}
+
+.search-bar .input{
+  border:none;
+  background-color:beige  ;
+  font-size: 1rem;
+  outline: none;
+    flex:1;
+  /* margin-bottom: 0.6rem; */
+}
+.icon {
+  width: 1rem;
+  height: 1rem;
+  color: #666;
+  flex-shrink: 0;
+  vertical-align: middle; 
+    /* display: block; */
+}
+.navigation svg{
+  width:1.4rem;
+  height: 1.4rem;
+}
+
+.main{
+  position: relative;
+  height: 100%;;
+  background-image: url('/img/hero-sec.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+/* .images{
+  position: relative;
+  height:100%;
+  width:auto;
+} */
+.bg{
+  height: 100%;
+  width:auto; 
+}
+.star-big{
+  position: absolute;
+  z-index:2;
+height: 6.4rem;
+width: 6.4rem;
+top:24%;
+right:10%;
+}
+.star-small{
+  position: absolute;
+  z-index:2;
+height: 3.2rem;
+width: 3.2rem;
+top: 50%;
+right:45%;
+}
+.main-sec{
+  display: flex;
+  background-color: #ece8e8;
+}
+.main{
+  padding: 4rem;
+}
+.main .desc{
+  font-size: 1rem;
+  width:40%;
+  padding: 2rem 0;
+}
+.main button{
+  background-color: black;
+  color: white;
+  width:10%;
+  height:6%;
+  border-radius: 2.4rem;
+}
+.tagline{
+  font-size: 3.6rem;
+  width: 45%;
+  height: auto;
+}
+.digit{
+  font-size: 2rem;
+  font-weight: 500;
+}
+.numbers{
+  display: flex;
+  padding: 2rem;
+  gap:1rem;
+}
+.v-line {
+  width: 1px;
+  height: 3.6rem;
+  background-color: #ccc;
+  flex-shrink: 0;
+}
+.brand-sec{
+  background-color: black;
+  display: flex;
+  width:100%;
+  justify-content: space-around;
+  padding: 2rem;
+}
+/* .arrivalimg{
+  width:30%;
+  height: auto;
+} */
+.arrival-heading{
+  margin-left: 40%;
+  padding:3%
+}
+.arrivals-section{
+  margin-top: 2.4rem;
+  align-items: center;
+  justify-content: center;
+}
+.arrivals-section button{
+  margin:3%;
+margin-left: 43%;
+
+}
+.arrival{
+  display: flex;
+  justify-content: space-around;
+  gap:4rem;
+}
+.name,.rating,.price-main{
+  padding: 1.5%;
+}
+.price-main{
+  display: flex;
+}
+.discount{
+  border-radius: 2.4rem;
+  padding:0.4rem;
+   background-color: rgb(243, 193, 193);
+   color: red;
+}
+.btn{
+  background-color: white;
+  border-radius: 2.4rem;
+  padding:0.6rem 4.8rem ;
+}
+.rating-main{
+  display: flex;
+}
+.price-main{
+display: flex;
+gap:2rem;
+}
+.rating{
+  display: flex;;
+}
+.rating svg{
+  stroke: none;
+  height: 1.5rem;
+  width:1.5rem;
+  fill:#FFCA28;
+}
+.rating img{
+  height: 1.5rem;
+  width:1.5rem;
+}
+.browse{
+  background-color: rgb(190, 189, 189);
+  margin:6% 10%;
+  border-radius: 2.4rem;
+  padding: 3%;
+  justify-content: center;
+}
+.brimgw{
+  width:50%;
+  height: 20%;
+  margin:1rem;
+}
+.brimg{
+  width:25%;
+  height: 20%;
+  margin:1rem;
+}
+.browse-img{
+  margin-left:4rem;
+}
+.testhead{
+  display: flex;
+  justify-content: space-between;
+  padding:2%;
+}
+.testhead svg{
+  height: 2.0rem;
+  width:2.0rem;
+}
+.name{
+  display: flex;
+}
+.name svg{
+  height: 1.2rem;
+  width:1.2rem;
+  stroke: white;
+  fill:green;
+}
+.testimonials{
+  margin: 5%;
+}
+.test{
+  padding:1rem;
+}
+.name{
+  font-weight: 100;
+  font-family:"Special Gothic Expanded One" ;
+}
+.testimonial{
+  font-size: 1rem;
+  line-height: 1.6;
+  letter-spacing: 1.4;
+}
+.testbody{
+  padding:2rem;
+  display: flex;;
+  gap:3rem;  
+}
+.test{
+  border:0.5px grey solid;
+  border-radius:1.2rem;
+  display:flex;
+  flex-direction: column;
+  gap:1rem;
+}
+.foot{
+  position: relative;
+  background-color: rgb(243, 242, 242);
+  padding-top: 7%;
+  font-family: "Inter";
+  padding:3%
+} 
+footer ul{
+list-style: none;
+}
+.foot1 .shop{
+  width:30%
+}
+.foot1{
+  display: flex;;
+  justify-content: space-evenly;
+  padding:2rem;
+  font-size: 1.4rem;;
+  gap: 1rem;
+}
+
+.foot1>div:not(:nth-child(1)){
+  flex:1;
+}
+.foot1>div:nth-child(1){
+  flex:0 0 30%
+}
+.foot h3{
+  font-weight: 300;
+  color: #353434;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+}
+.foot li{
+  font-size: 1rem;
+  padding:2%;
+    color:#949393;
+}
+.foottext{
+  font-size:1rem;
+  color:#949393;
+  width:50%;
+}
+.foot2 {
+  display: flex;
+  justify-content: space-between;
+  padding:2rem;
+}
+.form svg{
+  height:1rem;
+  width:1rem;
+  margin-top: 1rem;
+}
+.form input{
+  border:none;
+  background-color: transparent;
+}
+.form-main{
+  display: flex;
+  flex-direction: column;
+  gap:1.5rem;
+}
+.line{
+  padding:1.2rem;
+  font-size: 2.4rem;
+  width:60%;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.subscribe{
+  padding: 0.5rem ;;
+  border-radius: 1rem;
+  background-color:white;
+  color: black;
+  border:none;
+}
+.form{
+  position: absolute;
+  display: flex;;
+  justify-content: space-evenly;
+  width:60%;
+  height: 30%;
+  margin-left:13%;
+  border-radius:2.2rem;
+  background-color: black;
+  color: white;
+  top:-18%;
+  z-index: 1;
+}
+.foot form{
+  margin-top: 1rem;
+  border-radius: 1rem;
+  background-color:white;
+  color: black;
+  padding-bottom: 0.6rem;
+}
