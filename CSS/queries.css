@@ -17,9 +17,9 @@
   html{
   overflow-x: hidden;
 }
-  .main{
+  /* .main{
     background-position: right center;
-  }
+  } */
   .arrival{
     display: grid;
     grid-template-columns: repeat(2,1fr);

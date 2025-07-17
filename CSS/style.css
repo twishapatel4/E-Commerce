@@ -99,7 +99,7 @@ align-self: end;
 .main{
   position: relative;
   height: 100%;;
-  background-image: url('/img/hero-sec.png');
+  background-image: url('hero-sec.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
